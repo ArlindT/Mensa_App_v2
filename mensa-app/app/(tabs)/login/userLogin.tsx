@@ -11,9 +11,9 @@ import {
   ScrollView,
 } from 'react-native';
 import { useColorScheme } from 'react-native';
-import { Colors } from '../constants/Colors';
+import { Colors } from '../../../constants/Colors';
 import * as Haptics from 'expo-haptics';
-import { auth } from '../firebaseConfig';
+import { auth } from '../../../firebaseConfig';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export default function RegisterScreen() {
