@@ -6,7 +6,7 @@ import {
   signInWithEmailAndPassword,
 } from 'firebase/auth';
 
-export default function LoginScreen(): JSX.Element {
+export default function LoginScreen() {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
 

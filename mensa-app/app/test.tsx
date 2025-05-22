@@ -3,7 +3,7 @@ import { View, Button, Alert } from 'react-native';
 import { db } from '../firebaseConfig';
 import { addDoc, collection } from 'firebase/firestore';
 
-export default function TestScreen(): JSX.Element {
+export default function TestScreen() {
   const handleAddTestData = async () => {
     try {
       Alert.alert("Klick erkannt", "Die Funktion wurde ausgelöst ✅");
